@@ -1,0 +1,47 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="34">
+            <item index="0" class="java.lang.String" itemvalue="azure-keyvault-certificates" />
+            <item index="1" class="java.lang.String" itemvalue="azure-mgmt-subscription" />
+            <item index="2" class="java.lang.String" itemvalue="opentelemetry-exporter-otlp" />
+            <item index="3" class="java.lang.String" itemvalue="azure-mgmt-keyvault" />
+            <item index="4" class="java.lang.String" itemvalue="azure-storage-queue" />
+            <item index="5" class="java.lang.String" itemvalue="opentelemetry-sdk" />
+            <item index="6" class="java.lang.String" itemvalue="ec2_metadata" />
+            <item index="7" class="java.lang.String" itemvalue="msrestazure" />
+            <item index="8" class="java.lang.String" itemvalue="azure-mgmt-resource" />
+            <item index="9" class="java.lang.String" itemvalue="azure-common" />
+            <item index="10" class="java.lang.String" itemvalue="azure-keyvault-keys" />
+            <item index="11" class="java.lang.String" itemvalue="azure-mgmt-authorization" />
+            <item index="12" class="java.lang.String" itemvalue="azure-keyvault-secrets" />
+            <item index="13" class="java.lang.String" itemvalue="azure-mgmt-postgresqlflexibleservers" />
+            <item index="14" class="java.lang.String" itemvalue="azure-identity" />
+            <item index="15" class="java.lang.String" itemvalue="azure-mgmt-search" />
+            <item index="16" class="java.lang.String" itemvalue="azure-mgmt-monitor" />
+            <item index="17" class="java.lang.String" itemvalue="azure-mgmt-recoveryservices" />
+            <item index="18" class="java.lang.String" itemvalue="azure-mgmt-rdbms" />
+            <item index="19" class="java.lang.String" itemvalue="azure-mgmt-compute" />
+            <item index="20" class="java.lang.String" itemvalue="azure-mgmt-network" />
+            <item index="21" class="java.lang.String" itemvalue="azure.mgmt.policyinsights" />
+            <item index="22" class="java.lang.String" itemvalue="azure-mgmt-containerservice" />
+            <item index="23" class="java.lang.String" itemvalue="azure-data-tables" />
+            <item index="24" class="java.lang.String" itemvalue="azure-mgmt-security" />
+            <item index="25" class="java.lang.String" itemvalue="azure-mgmt-cosmosdb" />
+            <item index="26" class="java.lang.String" itemvalue="azure-storage-blob" />
+            <item index="27" class="java.lang.String" itemvalue="azure-mgmt-recoveryservicesbackup" />
+            <item index="28" class="java.lang.String" itemvalue="azure-mgmt-web" />
+            <item index="29" class="java.lang.String" itemvalue="azure-mgmt-core" />
+            <item index="30" class="java.lang.String" itemvalue="azure-mgmt-storage" />
+            <item index="31" class="java.lang.String" itemvalue="azure-mgmt-redis" />
+            <item index="32" class="java.lang.String" itemvalue="azure-mgmt-sql" />
+            <item index="33" class="java.lang.String" itemvalue="azure-core" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

@@ -73,4 +73,4 @@ def get_seconds_till_next_havdalah_date(geonameid):
     return "0"
 
 
-run(host='0.0.0.0', port=8080)
+run(host='0.0.0.0', port=80)
