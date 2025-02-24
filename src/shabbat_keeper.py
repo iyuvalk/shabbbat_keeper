@@ -1,7 +1,8 @@
 #!/usr/local/bin/python3
+import json
 
 import requests
-from bottle import Bottle, get, response, run
+from bottle import get, response, run
 import time
 import datetime
 
@@ -16,7 +17,8 @@ def get_hebcal_raw_res(geonameid):
     if geonameid not in LATEST_RESULT_CACHE or LATEST_RESULT_CACHE[geonameid]["ts"] != get_current_date():
         LATEST_RESULT_CACHE[geonameid] = {
             "raw_data": requests.get(HEBCAL_URL + str(geonameid)).json(),
-            "ts": get_current_date()
+            "ts": get_current_date(),
+            "full_ts": datetime.datetime.now().isoformat()
         }
     return LATEST_RESULT_CACHE[geonameid]["raw_data"]
 
@@ -71,6 +73,10 @@ def get_seconds_till_next_havdalah_date(geonameid):
     if res >= 0:
         return str(res)
     return "0"
+
+@get("/dump_cache")
+def dump_cache():
+    return json.dumps(LATEST_RESULT_CACHE)
 
 
 run(host='0.0.0.0', port=80)
